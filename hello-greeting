@@ -1,0 +1,19 @@
+package com.swopna;
+
+import java.util.Scanner;
+
+/**
+ * Simplest Program of Java input and output
+ */
+
+public class HelloWorld {
+
+    public static void main(String[] args){
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.print("What's good name please?: ");
+        String name = keyboard.next();
+
+        System.out.println("Hello! " + name);
+    }
+}
